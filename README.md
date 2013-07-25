@@ -29,7 +29,7 @@ On my Mac I put them into /Library/Java/Extensions, though there are other choic
 
 On Linux, the directory options are different. For instance, on a Java 1.6.0-27 system the library path is:
 
-   /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/x86\_64-linux-gnu/jni:/lib/x86\_64-linux-gnu:/usr/lib/x86\_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+   `/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/x86\_64-linux-gnu/jni:/lib/x86\_64-linux-gnu:/usr/lib/x86\_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib`
 
 You can find the appropriate list of directories for your system with `(System/getProperty "java.library.path")`
 
